@@ -9,9 +9,9 @@
 ## Progress
 1) Implemented and working mostly correct. Still trying to fix the colliders
   - Cat.cs
-3) Implemented and working correctly
+2) Implemented and working correctly
   - StreamerTrigger.cs
-4) Implemented; iffy on whether it's fully working or not
+3) Implemented; not fully working due to a physics issue
   - Throwable
   - StackableCube
-5) Not implemented
+4) Not implemented
