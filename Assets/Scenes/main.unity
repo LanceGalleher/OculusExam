@@ -1699,8 +1699,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &236708668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,7 +3175,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 4241966485233884565, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4156531248401478041, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 579449303}
     m_AddedComponents:
@@ -3219,6 +3217,11 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 2063f481-1b63-4eda-9ee8-a00df98536bc
     _installationVariants: []
+--- !u!4 &424597432 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4156531248401478041, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+  m_PrefabInstance: {fileID: 424597428}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &461544840
 GameObject:
   m_ObjectHideFlags: 0
@@ -4360,8 +4363,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &570797798
 GameObject:
   m_ObjectHideFlags: 0
@@ -9392,12 +9393,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579449300}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.6959071, y: -0, z: -0, w: 0.7181318}
-  m_LocalPosition: {x: 0, y: -0.058, z: -0.002}
-  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
+  m_LocalRotation: {x: -0.6959072, y: -0, z: -0, w: 0.71813184}
+  m_LocalPosition: {x: 0, y: -0.058, z: -0.0020000008}
+  m_LocalScale: {x: 0.45999998, y: 0.45999998, z: 0.45999995}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1237533439}
+  m_Father: {fileID: 424597432}
   m_LocalEulerAnglesHint: {x: -88.199, y: 0, z: 0}
 --- !u!1 &589788759
 GameObject:
@@ -11206,8 +11207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &813819377
 GameObject:
   m_ObjectHideFlags: 0
@@ -13021,8 +13020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &1010957406
 GameObject:
   m_ObjectHideFlags: 0
@@ -13934,8 +13931,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &1039384159
 GameObject:
   m_ObjectHideFlags: 0
@@ -14696,8 +14691,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1001 &1128450843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15431,11 +15424,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 699600196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1237533439 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4241966485233884565, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
-  m_PrefabInstance: {fileID: 424597428}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1245073947
 GameObject:
   m_ObjectHideFlags: 0
@@ -17121,8 +17109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &1430306446
 GameObject:
   m_ObjectHideFlags: 0
@@ -17734,8 +17720,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &1472801649
 GameObject:
   m_ObjectHideFlags: 0
@@ -20481,8 +20465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &1829683310
 GameObject:
   m_ObjectHideFlags: 0
@@ -22162,8 +22144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!1 &2129583744
 GameObject:
   m_ObjectHideFlags: 0

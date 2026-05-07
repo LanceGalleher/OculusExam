@@ -7,10 +7,10 @@ using UnityEngine;
 // throwMultiplier - used to increase/decrease the throwing force
 
 // Start() - gets the Rigidbody and ensures physics behave normally when loading in
-// Update() - Reads for right hand trigger input (0 = not pressed, 1 = pressed). If the object is being held then follow the hand and lock it's position/rotation to the hand. If the triger is released then drop the object
-// OnTriggerStay(Collider other) - 
-// PickUp(Transform hand) -
-// DropObject() - 
+// Update() - Reads for right hand trigger input (0 = not pressed, 1 = pressed). If the object is being held then follow the hand and lock it's position/rotation to the hand. If the triger is released then the object is dropped.
+// OnTriggerStay(Collider other) - Reads trigger input and colliders when an object is picked up
+// PickUp(Transform hand) - Handles picking up the actual object, disables object physics while being held, and clears any existing movement
+// DropObject() - Handles dropping and throwing the object by re-enabling physics when dropped and getting controller velocity to determine throwing force
 
 public class Throwable : MonoBehaviour
 {

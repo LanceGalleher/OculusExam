@@ -1,5 +1,10 @@
 using UnityEngine;
 
+// Triggers a particle system when triggers are pressed
+
+// Update()- R/LTrigger reads right and left trigger input and then if either are pressed it calls EmitStreamers()
+// EmitStreamers() - Handles the particle event system. Plays the system and emites 5 particles
+
 public class StreamerTrigger : MonoBehaviour
 {
     public ParticleSystem streamers;
@@ -28,6 +33,6 @@ public class StreamerTrigger : MonoBehaviour
             streamers.Play();
         }
 
-        streamers.Emit(10);
+        streamers.Emit(5);
     }
 }
