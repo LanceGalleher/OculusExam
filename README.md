@@ -1,5 +1,7 @@
 # Galleher_ZenGarden
 
+## [Link to video demo](https://youtu.be/gm37Z5pL2Dw)
+
 ## Task list
 1) The animal can be fed only 3 items ( the scene should have more feeding items ). After 3 items the animal says  “ Enough, Stop” ( UI pop up) and cannot be fed any more. 
 2) Pressing the trigger button [hand irrespective] colored streamers ( party streamer looking things) come out
