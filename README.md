@@ -1,4 +1,4 @@
-# Galleher_ZenGarden
+# Galleher_FinalOculusExam
 
 ## [Link to video demo](https://youtu.be/gm37Z5pL2Dw)
 
