@@ -41,6 +41,7 @@ public class Cat : MonoBehaviour
         if (full)
         {
             ShowPopup("Enough, Stop");
+            Destroy(food);
             return;
         }
 

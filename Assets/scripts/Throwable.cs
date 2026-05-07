@@ -53,8 +53,6 @@ public class Throwable : MonoBehaviour
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-
-        GetComponent<StackableCube>().Detach();
     }
 
     void DropObject()

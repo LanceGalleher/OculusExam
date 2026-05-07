@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 236021471}
   - component: {fileID: 236021470}
   - component: {fileID: 236021469}
-  - component: {fileID: 236021468}
+  - component: {fileID: 236021476}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -1529,21 +1529,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &236021468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236021467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
-  maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!114 &236021469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1701,6 +1686,21 @@ Transform:
   - {fileID: 979832261}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &236021476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236021467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
+  maxStackHeight: 4
+  below: {fileID: 0}
+  top: {fileID: 0}
 --- !u!1 &236708668
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,7 +4182,7 @@ GameObject:
   - component: {fileID: 570572381}
   - component: {fileID: 570572380}
   - component: {fileID: 570572379}
-  - component: {fileID: 570572378}
+  - component: {fileID: 570572386}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
@@ -4190,21 +4190,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &570572378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570572377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
-  maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!114 &570572379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4362,6 +4347,21 @@ Transform:
   - {fileID: 319430194}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570572386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570572377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
+  maxStackHeight: 4
+  below: {fileID: 0}
+  top: {fileID: 0}
 --- !u!1 &570797798
 GameObject:
   m_ObjectHideFlags: 0
@@ -11028,7 +11028,7 @@ GameObject:
   - component: {fileID: 811376193}
   - component: {fileID: 811376192}
   - component: {fileID: 811376191}
-  - component: {fileID: 811376190}
+  - component: {fileID: 811376198}
   m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
@@ -11036,21 +11036,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &811376190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811376189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
-  maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!114 &811376191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11208,6 +11193,21 @@ Transform:
   - {fileID: 832747707}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811376198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811376189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
+  maxStackHeight: 4
+  below: {fileID: 0}
+  top: {fileID: 0}
 --- !u!1 &813819377
 GameObject:
   m_ObjectHideFlags: 0
@@ -13798,6 +13798,7 @@ GameObject:
   - component: {fileID: 1027839738}
   - component: {fileID: 1027839737}
   - component: {fileID: 1027839736}
+  - component: {fileID: 1027839741}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -13920,6 +13921,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1027839741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027839735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
+  maxStackHeight: 4
+  below: {fileID: 0}
+  top: {fileID: 0}
 --- !u!1 &1039384159
 GameObject:
   m_ObjectHideFlags: 0
@@ -14678,7 +14694,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
   maxStackHeight: 4
   below: {fileID: 0}
   top: {fileID: 0}
@@ -16927,7 +16943,7 @@ GameObject:
   - component: {fileID: 1422401418}
   - component: {fileID: 1422401417}
   - component: {fileID: 1422401416}
-  - component: {fileID: 1422401415}
+  - component: {fileID: 1422401423}
   m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
@@ -16935,21 +16951,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1422401415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422401414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
-  maxStackHeight: 4
-  below: {fileID: 0}
-  top: {fileID: 0}
 --- !u!114 &1422401416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17107,6 +17108,21 @@ Transform:
   - {fileID: 1279494801}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1422401423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422401414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f91db41ada44d43a1bbbb7fd6e1919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StackableCube
+  maxStackHeight: 4
+  below: {fileID: 0}
+  top: {fileID: 0}
 --- !u!1 &1430306446
 GameObject:
   m_ObjectHideFlags: 0
