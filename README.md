@@ -8,6 +8,11 @@
 
 ## Progress
 1) Implemented and working mostly correct. Still trying to fix the colliders
-2) Implemented and working correctly
-3) Implemented; iffy on whether it's fully working or not
-4) Not implemented
+- Cat.cs
+- Ignore Collision.cs
+3) Implemented and working correctly
+- StreamerTrigger.cs
+4) Implemented; iffy on whether it's fully working or not
+- Throwable
+- StackableCube
+5) Not implemented
