@@ -1,5 +1,17 @@
 using UnityEngine;
 
+// Allows for objects to be picked up, held, and thrown
+
+// pickUp - whether the object is being held or not
+// Transform handTransform - transform of the hand/controller holding the object
+// throwMultiplier - used to increase/decrease the throwing force
+
+// Start() - gets the Rigidbody and ensures physics behave normally when loading in
+// Update() - Reads for right hand trigger input (0 = not pressed, 1 = pressed). If the object is being held then follow the hand and lock it's position/rotation to the hand. If the triger is released then drop the object
+// OnTriggerStay(Collider other) - 
+// PickUp(Transform hand) -
+// DropObject() - 
+
 public class Throwable : MonoBehaviour
 {
     private Rigidbody rb;

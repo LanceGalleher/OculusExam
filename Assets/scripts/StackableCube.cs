@@ -7,10 +7,9 @@
 
 // Start() - Caches the Rigidbody for physics control
 // OnCollisionEnter(Collision collision) - tries to get a stackablecube component from the object, if it's not a stackable cube it does nothing otherwise it will attempt to stack
-// TryStackOn(StackableCube baseCube) - 
-// GetStackHeight() - 
-// ApplyInstability() - 
-// Detach() - 
+// TryStackOn(StackableCube baseCube) - handles logic regarding stacking a cube on top of another cube. Should prevent stacking if the cube is 1) moving too fast or 2) the stack is too tall. It calculates how tall the current stack is. Lastly, it attempts to stabilize a stack by stopping it's movement when in a stack.
+// GetStackHeightFrom(StackableCube start) - Caculates how many cubes are stacked vertically starting from a given cube. Utilizes raycasting downward to check for cubes underneath
+// ApplyInstability(StackableCube cube) - Adds a random force to make the cubes fall when a stack is too tall
 
 public class StackableCube : MonoBehaviour
 {
@@ -35,7 +34,6 @@ public class StackableCube : MonoBehaviour
     {
         if (rb.linearVelocity.magnitude > 1.5f) return;
 
-        // Count how tall the stack would become if we placed this cube here
         int height = GetStackHeightFrom(baseCube);
 
         if (height >= maxStackHeight)
@@ -45,7 +43,6 @@ public class StackableCube : MonoBehaviour
             return;
         }
 
-        // Snap into place (no stored relationships needed)
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
     }
@@ -56,7 +53,6 @@ public class StackableCube : MonoBehaviour
 
         Transform current = start.transform;
 
-        // Move downward checking for cubes
         while (true)
         {
             Ray ray = new Ray(current.position, Vector3.down);
